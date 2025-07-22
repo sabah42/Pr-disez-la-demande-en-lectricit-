@@ -24,7 +24,8 @@ L’objectif est de permettre à l’entreprise de **mieux anticiper les pics de
 ## Structure du projet
 
 **data/**  
-Contient les données journalières de consommation électrique et les données météo (températures) utilisées pour le calcul du DJU (Degré Jour Unifié).
+- `data_projet9.csv`: Contient les données journalières de consommation électrique.
+- les autres fichiers de type xlsx représentent les données météo (températures) utilisées pour le calcul du DJU (Degré Jour Unifié) de plusieurs régions.
 
 **notebooks/**  
 - `notebook.ipynb` : Prétraitement des données, correction de l’effet température, désaisonnalisation et modélisation (Holt-Winters, SARIMA).
