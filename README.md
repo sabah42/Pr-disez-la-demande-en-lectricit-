@@ -30,7 +30,7 @@ Contient les données journalières de consommation électrique et les données 
 - `notebook.ipynb` : Prétraitement des données, correction de l’effet température, désaisonnalisation et modélisation (Holt-Winters, SARIMA).
 
 **images/**  
-- Graphiques de correction par régression, décomposition de la série, prévisions, ACF/PACF, évaluation des modèles (MAPE, RMSE).
+- Graphiques de correction par régression, décomposition de la série, prévisions, évaluation des modèles (MAPE, RMSE).
 
 **présentation/**  
 - `presentation.pptx` : Fichier PowerPoint utilisé lors de la soutenance pour présenter les objectifs, la méthodologie et les résultats.
@@ -77,7 +77,7 @@ Contient les données journalières de consommation électrique et les données 
 - Les deux modèles prédisent correctement la tendance saisonnière
 - Le modèle SARIMA présente de **meilleures performances** (MAPE et RMSE plus faibles)
 - Les prévisions montrent des pics de consommation en **janvier et juillet**
-- Modèles validés par les tests statistiques (ACF, normalité des résidus, bruit blanc)
+- Modèles validés par les tests statistiques (normalité des résidus, bruit blanc)
 
 
 ## Recommandations
