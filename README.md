@@ -30,7 +30,7 @@ L’objectif est de permettre à l’entreprise de **mieux anticiper les pics de
 **notebooks/**  
 - `notebook.ipynb` : Prétraitement des données, correction de l’effet température, désaisonnalisation et modélisation (Holt-Winters, SARIMA).
 
-**images/**  
+**visualizations/**  
 - Graphiques de correction par régression, décomposition de la série, prévisions, évaluation des modèles (MAPE, RMSE).
 
 **présentation/**  
